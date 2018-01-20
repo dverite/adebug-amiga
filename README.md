@@ -34,4 +34,4 @@ If you're interested in the Atari version see:
 https://github.com/frost242/adebug
 
 
-- Daniel Vérité
+ Daniel Vérité
