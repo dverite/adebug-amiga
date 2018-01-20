@@ -1,0 +1,47 @@
+;fonctions de la bibliothèque gadtools.library
+-o+
+-d+
+Gadtoolsbase,la=openlib("gadtools.library",0)
+
+;Adresses des sauts aux fonctions
+;a partir de 2.0
+CreateGadgetA,la=Gadtoolsbase-$1e
+FreeGadgets,la=Gadtoolsbase-$24
+GT_SetGadgetAttrsA,la=Gadtoolsbase-$2a
+CreateMenusA,la=Gadtoolsbase-$30
+FreeMenus,la=Gadtoolsbase-$36
+LayoutMenuItemsA,la=Gadtoolsbase-$3c
+LayoutMenusA,la=Gadtoolsbase-$42
+GT_GetIMsg,la=Gadtoolsbase-$48
+GT_ReplyIMsg,la=Gadtoolsbase-$4e
+GT_RefreshWindows,la=Gadtoolsbase-$54
+GT_BeginRefresh,la=Gadtoolsbase-$5a
+GT_EndRefresh,la=Gadtoolsbase-$60
+GT_FilterIMsg,la=Gadtoolsbase-$66
+GT_PostFilterIMsg,la=Gadtoolsbase-$6c
+CreateContext,la=Gadtoolsbase-$72
+DrawBevelBoxA,la=Gadtoolsbase-$78
+GetVisualInfoA,la=Gadtoolsbase-$7e
+FreeVisualInfo,la=Gadtoolsbase-$84
+
+;Adresses des fonctions
+
+_CreateGadgetA,la={Gadtoolsbase-$1c}
+_FreeGadgets,la={Gadtoolsbase-$22}
+_GT_SetGadgetAttrsA,la={Gadtoolsbase-$28}
+_CreateMenusA,la={Gadtoolsbase-$2e}
+_FreeMenus,la={Gadtoolsbase-$34}
+_LayoutMenuItemsA,la={Gadtoolsbase-$3a}
+_LayoutMenusA,la={Gadtoolsbase-$40}
+_GT_GetIMsg,la={Gadtoolsbase-$46}
+_GT_ReplyIMsg,la={Gadtoolsbase-$4c}
+_GT_RefreshWindow,la={Gadtoolsbase-$52}
+_GT_BeginRefresh,la={Gadtoolsbase-$58}
+_GT_EndRefresh,la={Gadtoolsbase-$5e}
+_GT_FilterIMsg,la={Gadtoolsbase-$64}
+_GT_PostFilterIMsg,la={Gadtoolsbase-$6a}
+_CreateContext,la={Gadtoolsbase-$70}
+_DrawBevelBoxA,la={Gadtoolsbase-$76}
+_GetVisualInfoA,la={Gadtoolsbase-$7c}
+_FreeVisualInfo,la={Gadtoolsbase-$82}
+-o-

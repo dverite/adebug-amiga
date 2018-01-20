@@ -1,0 +1,19 @@
+;fonctions de la bibliothèque diskfont.library
+-o+
+-d+
+Diskfontbase,la=openlib("diskfont.library",0)
+
+OpenDiskFont,la=Diskfontbase-$1e
+AvailFonts,la=Diskfontbase-$24
+;a partir de 1.3
+NewFontContents,la=Diskfontbase-$2a
+DisposeFontContents,la=Diskfontbase-$30
+;a partir de 2.0
+NewScaledDiskFont,la=Diskfontbase-$36
+
+_OpenDiskFont,la={Diskfontbase-$1c}
+_AvailFonts,la={Diskfontbase-$22}
+_NewFontContents,la={Diskfontbase-$28}
+_DisposeFontContents,la={Diskfontbase-$2e}
+_NewScaledDiskFont,la={Diskfontbase-$34}
+-o-

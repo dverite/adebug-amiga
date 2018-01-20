@@ -1,0 +1,10 @@
+;fonctions de la bibliothèque translator.library
+
+-o+
+-d+
+Translatorbase,la=openlib("translator.library",0)
+
+Translate,la=Translatorbase-$1e
+
+_Translate,la={Translatorbase-$1c}
+-o-

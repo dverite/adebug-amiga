@@ -1,0 +1,35 @@
+-o+
+; CIA-A
+ciaapra,la=$bfe001
+ciaaprb,la=$bfe101
+ciaaddra,la=$bfe201
+ciaaddrb,la=$bfe301
+ciaatalo,la=$bfe401
+ciaatahi,la=$bfe501
+ciaatblo,la=$bfe601
+ciaatbhi,la=$bfe701
+ciaatodlow,la=$bfe801
+ciaatodmid,la=$bfe901
+ciaatodhi,la=$bfea01
+ciaasdr,la=$bfec01
+ciaaicr,la=$bfed01
+ciaacra,la=$bfee01
+ciaacrb,la=$bfef01
+
+; CIA-B
+ciabpra,la=$bfd000
+ciabprb,la=$bfd100
+ciabddra,la=$bfd200
+ciabddrb,la=$bfd300
+ciabtalo,la=$bfd400
+ciabtahi,la=$bfd500
+ciabtblo,la=$bfd600
+ciabtbhi,la=$bfd700
+ciabtodlow,la=$bfd800
+ciabtodmid,la=$bfd900
+ciabtodhi,la=$bfda00
+ciabsdr,la=$bfdc00
+ciabicr,la=$bfdd00
+ciabcra,la=$bfde00
+ciabcrb,la=$bfdf00
+-o-

@@ -1,0 +1,17 @@
+; structure CommandLineInterface
+cli_Result2,la=0	;0
+cli_SetName,la=4	;4
+cli_CommandDir,la=8	;8
+cli_ReturnCode,la=c	;12
+cli_CommandName,la=10	;16
+cli_FailLevel,la=14	;20
+cli_Prompt,la=18	;24
+cli_StandardInput,la=1c	;28
+cli_CurrentInput,la=20	;32
+cli_CommandFile,la=24	;36
+cli_Interactive,la=28	;40
+cli_Background,la=2c	;44
+cli_CurrentOutput,la=30	;48
+cli_DefaultStack,la=34	;52
+cli_StandardOutput,la=38;56
+cli_Module,la=3c	;60

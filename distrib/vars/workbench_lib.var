@@ -1,0 +1,24 @@
+;fonctions de la bibliothèque workbench.library
+
+Workbenchbase,la=openlib("workbench.library",0)
+-o+
+-d+
+;appels
+StartWorkbench,la=Workbench-$2a
+AddAppWindowA,la=Workbench-$30
+RemoveAppWindow,la=Workbench-$36
+AddAppIconA,la=Workbench-$3c
+RemoveAppIcon,la=Workbench-$42
+AddAppMenuItemA,la=Workbench-$48
+RemoveAppMenuItem,la=Workbench-$4e
+
+;fonctions
+_StartWorkbench,la={Workbench-$28}
+_AddAppWindowA,la={Workbench-$2e}
+_RemoveAppWindow,la={Workbench-$34}
+_AddAppIconA,la={Workbench-$3a}
+_RemoveAppIcon,la={Workbench-$40}
+_AddAppMenuItemA,la={Workbench-$46}
+_RemoveAppMenuItem,la={Workbench-$4c}
+
+-o-

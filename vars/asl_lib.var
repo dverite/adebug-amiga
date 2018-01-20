@@ -1,0 +1,16 @@
+;fichier de definition des fonctions de asl.library
+-o+
+-d+
+aslbase,la=openlib("asl.library",0)
+
+AllocFileRequest,la=aslbase-$1e
+FreeFileRequest,la=aslbase-$24
+RequestFile,la=aslbase-$2a
+AllocAslRequest,la=aslbase-$30
+FreeAslRequest,la=aslbase-$36
+AslRequest,la=aslbase-$3c
+AslReservedFunc1,la=aslbase-$42
+AslReservedFunc2,la=aslbase-$48
+AslReservedFunc3,la=aslbase-$4e
+AslReservedFunc4,la=aslbase-$54
+-o-

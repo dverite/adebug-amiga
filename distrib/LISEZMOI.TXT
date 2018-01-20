@@ -1,0 +1,44 @@
+                          Additif au manuel d'Adébog v1.00
+                         ----------------------------------
+
+ Fichiers de variables
+-----------------------
+En plus des options d et D, l'option o{+/-} permet d'activer/désactiver
+le test d'existence des variables à leur création
+
+exemple:
+	-o+
+	var,la=1
+	var,la=2
+
+ne provoque pas d'erreur, alors que
+	-o-
+	var,la=1
+	var,la=2
+provoque une erreur à la seconde initialisation de var; c'est l'option
+par défaut.
+
+ RO openlib
+------------
+La variable RO openlib qui permet d'obtenir l'adresse de base d'une
+bibliothèque a été intégrée à Adébog (par le programme add_ro) pour
+une plus grande commodité d'utilisation des fichiers de variables.
+
+ version 1.02
+--------------
+Lorsque Adebug est "endormi" par la commande [Ctl_M], la combinaison
+de touches [Shift_Alt_Help] équivaut a cliquer dans le bouton de fermeture
+de la fenêtre. Cela permet de revenir a Adebug sans avoir a passer
+par l'écran du Workbench.
+
+ Fonctions spécifiques 68030
+-----------------------------
+
+[Ctl_Alt_F]rame:
+Permet de visualiser la stack frame de la dernière exception s'étant produite.
+Pour une explication du contenu, faire référence au chapitre 8 du manuel du
+68030 de Motorola (Editions Addison-Wesley).
+
+[Sft_Ctl_0~7]
+Dans une fenetre de type registres, permet de passer de l'affichage hexa des
+registres flottants (FP0~FP7) à l'affichage ASCII et réciproquement.

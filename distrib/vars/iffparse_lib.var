@@ -1,0 +1,21 @@
+;fonctions de la bibliothèque keymap.library
+;a partir du 2.0
+
+-o+
+-d+
+Keymapbase,la=openlib("keymap.library",0)
+
+;Adresses des sauts aux fonctions
+
+SetKeyMapDefault,la=Keymapbase-$1e
+AskKeyMapDefault,la=Keymapbase-$24
+MapRawKey,la=Keymapbase-$2a
+MapANSI,la=Keymapbase-$30
+
+;Adresses des fonctions
+
+_SetKeyMapDefault,la={Keymapbase-$1c}
+_AskKeyMapDefault,la={Keymapbase-$22}
+_MapRawKey,la={Keymapbase-$28}
+_MapANSI,la={Keymapbase-$2e}
+-o-
